@@ -1,0 +1,53 @@
+.dataTable-conatiner {
+  position: relative;
+  min-width: 100vw;
+  height: 100vh;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: center; */
+  padding: 1rem;
+}
+.title {
+  width: 100vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  width: 100%;
+  padding: 10px;
+  overflow: scroll;
+}
+.header {
+  position: relative;
+  padding-right: 1.5rem;
+  height: 100%;
+  display: flex;
+}
+.icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  aspect-ratio: 1;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.icon:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+.popup {
+  position: absolute;
+  top: 140%;
+  left: 0;
+  cursor: pointer;
+  min-width: 15rem;
+  background-color: rgb(240, 230, 230);
+  color: #333;
+}

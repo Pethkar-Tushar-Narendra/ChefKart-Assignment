@@ -1,0 +1,10 @@
+.popup-container {
+  height: 100%;
+  width: 100%;
+}
+.popup-container h2 {
+  padding: 0.5rem;
+}
+.popup-container h2:hover {
+  background-color: rgb(135, 129, 129);
+}
